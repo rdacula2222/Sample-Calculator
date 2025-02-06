@@ -1,0 +1,90 @@
+/* Background Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Calculator Box */
+.calculator {
+    background: #2c2c2c;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: white;
+    width: 300px;
+}
+
+/* Input Fields */
+.input-group {
+    margin: 12px 0;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 30%;
+}
+
+/* Button Colors */
+#addBtn {
+    background: #27ae60;
+    color: white;
+}
+
+#clearBtn {
+    background: #f39c12;
+    color: white;
+}
+
+#exitBtn {
+    background: #e74c3c;
+    color: white;
+}
+
+/* Button Hover Effects */
+#addBtn:hover {
+    background: #2ecc71;
+}
+
+#clearBtn:hover {
+    background: #f1c40f;
+}
+
+#exitBtn:hover {
+    background: #c0392b;
+}
